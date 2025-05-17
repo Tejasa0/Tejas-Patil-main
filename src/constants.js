@@ -7,7 +7,7 @@ import angularLogo from './assets/tech_logo/angular.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import microservicesLogo from './assets/tech_logo/microservicesLogo.png';
-import hibernateLogo from './assets/tech_logo/Hibernate.png';
+import hibernateLogo from './assets/tech_logo/hibernate.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
