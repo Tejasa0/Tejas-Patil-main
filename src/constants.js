@@ -96,10 +96,10 @@ export const SkillsInfo = [
       skills: [
         "Java",
         "Spring boot",
-        "JavaScript",
         "Microservice",
-        "Struts 2",
-        "Oracle SQL",
+        "Node Js",
+        "PostgreSQL",
+        "Kafka",
       ],
     },
     {
