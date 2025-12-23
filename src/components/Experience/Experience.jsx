@@ -44,7 +44,7 @@ const Experience = () => {
                   <img
                     src={experience.img}
                     alt={experience.company}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
 
