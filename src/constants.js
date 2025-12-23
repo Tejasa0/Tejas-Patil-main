@@ -25,6 +25,7 @@ import eclipseLogo from './assets/tech_logo/eclipseLogo.png';
 // Experience Section Logo's
 import tcsLogo from './assets/company_logo/TCS-Tata-Consultancy-Services-Lo.png';
 import zensarLogo from './assets/company_logo/zensar-technologies-logo.png';
+import evLogo from './assets/company_logo/EdgeVerve_Infosys_Logo.png';
 
 // Education Section Logo's
 import snjbLogo from './assets/education_logo/SNJB Logo.png';
@@ -87,11 +88,11 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: tcsLogo,
-      role: "Java Full Stack Developer",
-      company: "Tata Consultancy Services",
-      date: "August 2023 - Present",
-      desc: " Spearheaded the development and enhancement of financial products aligned with client requirements and industry standards. Collaborated with cross-functional teams to implement RESTful APIs, and optimize application performance in an agile environment.",
+      img: evLogo,
+      role: "Java Backend Developer",
+      company: "EdgeVerve(Infosys Finacle)",
+      date: "October 2025 - Present",
+      desc: "  Developing backend REST APIs for the vNext core platform using Java and Spring Boot. Designed reusable endpoints suitable for multi-client deployments.",
       skills: [
         "Java",
         "Spring boot",
@@ -103,6 +104,22 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      img: tcsLogo,
+      role: "Java Full Stack Developer",
+      company: "Tata Consultancy Services",
+      date: "August 2023 - October 2025",
+      desc: " Spearheaded the development and enhancement of financial products aligned with client requirements and industry standards. Collaborated with cross-functional teams to implement RESTful APIs, and optimize application performance in an agile environment.",
+      skills: [
+        "Java",
+        "Spring boot",
+        "JavaScript",
+        "Microservice",
+        "Struts 2",
+        "Oracle SQL",
+      ],
+    },
+    {
+      id: 2,
       img: zensarLogo,
       role: "Java/SQL Trainee",
       company: "Zensar Technologies Private Limited",
