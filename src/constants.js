@@ -26,6 +26,8 @@ import eclipseLogo from './assets/tech_logo/eclipseLogo.png';
 import tcsLogo from './assets/company_logo/TCS-Tata-Consultancy-Services-Lo.png';
 import zensarLogo from './assets/company_logo/zensar-technologies-logo.png';
 import evLogo from './assets/company_logo/EdgeVerve_Infosys_Logo.png';
+import citicorpLogo from './assets/company_logo/citilogo.png';
+
 
 // Education Section Logo's
 import snjbLogo from './assets/education_logo/SNJB Logo.png';
@@ -36,8 +38,6 @@ import aashaPortalLogo from './assets/work_logo/aashaPortalLogo.png';
 import naitroLogo from './assets/work_logo/naitroLogo.png';
 import airlineLogo from './assets/work_logo/airlineLogo.png';
 import rajnitiLogo from './assets/work_logo/rajnitiLogo.png';
-
-
 export const SkillsInfo = [
   {
     title: 'Backend',
@@ -88,11 +88,28 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
+      img: citicorpLogo,
+      role: "Software Engineer",
+      company: "Citicorp (Citibank)",
+      date: "January 2026 - Present",
+      desc: "Developing and enhancing KYC compliance applications for Citibank using Java, Spring Boot, and Microservices while ensuring regulatory adherence and production stability for critical banking workflows.",
+      skills: [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "KYC",
+        "CI/CD",
+        "Oracle SQL",
+        "REST APIs",
+      ],
+    },
+    {
+      id: 1,
       img: evLogo,
       role: "Java Backend Developer",
       company: "EdgeVerve(Infosys Finacle)",
-      date: "October 2025 - Present",
-      desc: "  Developing backend REST APIs for the vNext core platform using Java and Spring Boot. Designed reusable endpoints suitable for multi-client deployments.",
+      date: "October 2025 - January 2026",
+      desc: "Developed backend REST APIs for the vNext core platform using Java and Spring Boot. Designed reusable endpoints suitable for multi-client deployments.",
       skills: [
         "Java",
         "Spring boot",
@@ -103,12 +120,12 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: tcsLogo,
       role: "Java Full Stack Developer",
       company: "Tata Consultancy Services",
       date: "August 2023 - October 2025",
-      desc: " Spearheaded the development and enhancement of financial products aligned with client requirements and industry standards. Collaborated with cross-functional teams to implement RESTful APIs, and optimize application performance in an agile environment.",
+      desc: "Spearheaded the development and enhancement of financial products aligned with client requirements and industry standards. Collaborated with cross-functional teams to implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "Java",
         "Spring boot",
@@ -119,7 +136,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: zensarLogo,
       role: "Java/SQL Trainee",
       company: "Zensar Technologies Private Limited",

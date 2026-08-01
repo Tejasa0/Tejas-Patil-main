@@ -40,14 +40,13 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Java Developer with experience in designing, developing, and maintaining web applications. Skilled in Core Java,
-            Spring, Spring Boot, and Struts2. Expertise in building secure, scalable back-end systems using hibernate and
-            MySQL. Strong collaborator with cross-functional teams and a focus on delivering high-quality, efficient, and
-            secure software solutions.
+            Java Developer with 3+ years of experience in the BFSI domain, building secure and scalable applications using Java,
+            Spring Boot, Microservices, and REST/SOAP APIs. Hands-on experience in KYC application development, workflow-driven
+            banking systems, CI/CD pipelines, Application security, and core product development.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/16jg3DM55UPm0lofvzUBDCl2CjsngviI3/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Ea879gWHPnSWwOrOfppoZ947frh7XHul/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
